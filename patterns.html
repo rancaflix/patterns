@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Black and White Tiles</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    td {
+      width: 50px;
+      height: 50px;
+      border: 1px solid black;
+    }
+</style>
+</head>
+<body>
+  <h1>Black and White Tiles</h1>
+  <table id="first-player-board" data-hidden="true"></table>
+  <button id="generate-button">Generate Pattern</button>
+  <button id="save-button">Save and Hide</button>
+  <table id="second-player-board" data-hidden="true"></table>
+  <button id="second-player-button">Generate Pattern</button>
+  <button id="second-player-save-button">Save and Hide</button>
+  <button id="calculate-button">Calculate Starting Position</button>
+  <table id="starting-position-board"></table>
+  <button id="new-game-button">New Game</button>
+  <script src="main.js"></script>
+</body>
+</html>
